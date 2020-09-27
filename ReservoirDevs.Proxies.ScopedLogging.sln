@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harness\ReservoirDevs.Proxies.ScopedLogging.Harness", "ReservoirDevs.Proxies.ScopedLogging.Harness\ReservoirDevs.Proxies.ScopedLogging.Harness.csproj", "{CF311FA7-BB56-43F5-BE4A-C38C6F95F60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\ReservoirDevs.Proxies.ScopedLogging", "ReservoirDevs.Proxies.ScopedLogging\ReservoirDevs.Proxies.ScopedLogging.csproj", "{2F5F68CF-2094-4358-B597-CF020AE436A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Harness", "Test Harness", "{84D6261B-B495-4D4D-849D-84424663142F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Code", "Source Code", "{1BB431BB-D470-4FFE-8872-059B46203B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF311FA7-BB56-43F5-BE4A-C38C6F95F60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF311FA7-BB56-43F5-BE4A-C38C6F95F60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF311FA7-BB56-43F5-BE4A-C38C6F95F60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF311FA7-BB56-43F5-BE4A-C38C6F95F60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5F68CF-2094-4358-B597-CF020AE436A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5F68CF-2094-4358-B597-CF020AE436A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5F68CF-2094-4358-B597-CF020AE436A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5F68CF-2094-4358-B597-CF020AE436A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF311FA7-BB56-43F5-BE4A-C38C6F95F60F} = {84D6261B-B495-4D4D-849D-84424663142F}
+		{2F5F68CF-2094-4358-B597-CF020AE436A3} = {1BB431BB-D470-4FFE-8872-059B46203B94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0D80668-1885-419A-AEBB-EB0B0021239A}
+	EndGlobalSection
+EndGlobal
